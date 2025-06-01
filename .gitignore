@@ -1,0 +1,17 @@
+# RStudio project files
+.Rproj.user
+.Rhistory
+.Rdata
+.Rprofile
+.Rbuildignore
+.httr-oauth
+.DS_Store
+
+# Ignore some common directories and files
+local/
+docs
+inst/doc
+/doc/
+/Meta/
+/tests/internal/cmdstanr_output/
+/tests/internal/*cache*
