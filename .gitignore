@@ -1,11 +1,12 @@
 # RStudio project files
-.Rproj.user
-.Rhistory
-.Rdata
-.Rprofile
-.Rbuildignore
-.httr-oauth
-.DS_Store
+**.Rproj.user
+**.Rhistory
+**.Rdata
+**.Rprofile
+**.Rbuildignore
+**.httr-oauth
+**.DS_Store
+**.pptx
 
 # Ignore some common directories and files
 local/

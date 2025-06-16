@@ -1,0 +1,18 @@
+# measurement models
+X =~ b1*X1 + b2*X2 + b3*X3
+Y =~ b4*Y1 + b5*Y2 + b6*Y3
+
+# covariance between latent variables
+X ~~ covXY*Y
+
+# variances of latent variables
+X ~~ varX*X
+Y ~~ varY*Y
+
+# residual / error variances
+X1 ~~ e1*X1
+X2 ~~ e1*X2
+X3 ~~ e1*X3
+Y1 ~~ e1*Y1
+Y2 ~~ e1*Y2
+Y3 ~~ e1*Y3
