@@ -11,7 +11,7 @@ Y ~~ 1*Y
 
 # residual / error variances
 X1 ~~ 0.3*X1
-X2 ~~ 0.5*X2
+X2 ~~ 0.6*X2
 X3 ~~ 0.2*X3
 Y1 ~~ 0.65*Y1
 Y2 ~~ 0.75*Y2

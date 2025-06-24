@@ -1,0 +1,21 @@
+#Measurement Models for three measurement points
+Dep_Pre =~ 1*D1_pre + 1*D2_pre
+Dep_Post =~ 1*D1_post + 1*D2_post
+Dep_follow =~ 1*D1_follow + 1*D2_follow
+
+# Implement Change Score Model
+Dep_Post ~ 1*Dep_Pre
+Dep_follow ~ 1*Dep_Post
+
+# Estimate Intercepts
+Dep_Pre ~ 1
+Dep_Post ~ 1
+Dep_follow ~ 1
+
+#Fix Intercepts of Indicators
+D1_pre ~ 0
+D2_pre ~ 0
+D1_post ~ 0
+D2_post ~ 0
+D1_follow ~ 0
+D2_follow ~ 0

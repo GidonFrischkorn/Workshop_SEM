@@ -16,3 +16,4 @@ inst/doc
 /Meta/
 /tests/internal/cmdstanr_output/
 /tests/internal/*cache*
+.Rproj.user
