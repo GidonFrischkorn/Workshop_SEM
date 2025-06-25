@@ -1,0 +1,9 @@
+x1 ~~ NA*x1
+x2 ~~ NA*x2
+x3 ~~ NA*x3
+x4 ~~ NA*x4
+x5 ~~ NA*x5
+x6 ~~ NA*x6
+x7 ~~ NA*x7
+x8 ~~ NA*x8
+x9 ~~ NA*x9
